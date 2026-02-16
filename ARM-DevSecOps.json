@@ -99,7 +99,7 @@
   "size": "S1",
   "family": "S",
   "capacity": 1
-}
+},
       "kind": "linux",
       "properties": {
         "perSiteScaling": false,
@@ -341,5 +341,6 @@
     }
   }
 }
+
 
 
