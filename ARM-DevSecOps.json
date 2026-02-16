@@ -93,13 +93,13 @@
       "apiVersion": "2021-03-01",
       "name": "[parameters('appServicePlanName')]",
       "location": "[parameters('location')]",
-"sku": {
-  "name": "S1",
-  "tier": "Standard",
-  "size": "S1",
-  "family": "S",
-  "capacity": 1
-},
+  "sku": {
+    "name": "B1",         
+    "tier": "Basic",
+    "size": "B1",
+    "family": "B",
+    "capacity": 1
+  },
       "kind": "linux",
       "properties": {
         "perSiteScaling": false,
@@ -341,6 +341,7 @@
     }
   }
 }
+
 
 
 
