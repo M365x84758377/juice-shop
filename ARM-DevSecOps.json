@@ -93,13 +93,13 @@
       "apiVersion": "2021-03-01",
       "name": "[parameters('appServicePlanName')]",
       "location": "[parameters('location')]",
-"sku": {
-    "name": "P1mv4",
-    "tier": "PremiumV4",
-    "size": "P1mv4",
-    "family": "Pv4",
-    "capacity": 1
-  }
+      "sku": {
+        "name": "P1v3",
+        "tier": "PremiumV3",
+        "size": "P1v3",
+        "family": "Pv3",
+        "capacity": 1
+      },
       "kind": "linux",
       "properties": {
         "perSiteScaling": false,
@@ -341,8 +341,3 @@
     }
   }
 }
-
-
-
-
-
